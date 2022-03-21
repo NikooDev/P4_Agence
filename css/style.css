@@ -284,7 +284,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+	font-size: 40px;
+	font-weight: 600;
 }
 
 .navbar {
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -687,7 +688,7 @@ p {
 
 .h1 {
     font-size: 20px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
 }
 
 .cta-hero {
@@ -701,7 +702,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 15px auto auto auto;
 }
 
 h2 {
@@ -780,7 +781,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #4f3a30!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -823,6 +824,20 @@ h4 {
 
 .bg-presentation {
     background-image: url("./../img/image-de-presentation.bmp");
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+}
+
+.footer li {
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.footer li a {
+	font-size: 18px;
 }
 
 @media (max-width: 1024px) {
